@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<!-- Overall layout is vertical -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<FrameLayout android:id="@+id/FrameLayout01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</FrameLayout>
+
+		<ImageView android:id="@+id/ImageView01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+
+	</LinearLayout>
+
+	<TextView android:text="@+id/TextView01" android:id="@+id/status_str"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+
+	<!-- Buttons arranged horizontally -->
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<ToggleButton android:text="I_gray" android:id="@+id/btn_Igray"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+
+		<ToggleButton android:text="Pack to int" android:id="@+id/btn_Ipack"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+
+		<ToggleButton android:text="Set bitmap" android:id="@+id/btn_Iset"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+
+		<ToggleButton android:text="Draw bitmap" android:id="@+id/btn_Idraw"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+
+
+		<ToggleButton android:text="Draw lines" android:id="@+id/btn_Iprimitives"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+			
+		<ToggleButton android:text="Responsiveness" android:id="@+id/btn_Responce"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+			
+
+	</LinearLayout>
+
+</LinearLayout>
